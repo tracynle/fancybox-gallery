@@ -1,0 +1,20 @@
+body {
+    /* background-image: url(images/coffee1.jpg); */
+    height: 80vh;
+    background-attachment: fixed;
+    background-position: center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.wrapper {
+    width: 1170px;
+    margin: 6% auto;
+}
+.wrapper a img {
+    width: 100%;
+}
+.wrapper a {
+    width: 32%;
+    float: left;
+    margin: 5px;
+}
