@@ -1,20 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
-    /* background-image: url(images/coffee1.jpg); */
-    height: 80vh;
-    background-attachment: fixed;
-    background-position: center center;
-    -webkit-background-size: cover;
-    background-size: cover;
+    font-family: 'Unica One', cursive;
 }
-.wrapper {
-    width: 1170px;
-    margin: 6% auto;
+
+header {
+    font-size: 3em;
+    text-align: center;
 }
-.wrapper a img {
-    width: 100%;
+
+h1 {
+    text-align: center;
 }
-.wrapper a {
-    width: 32%;
-    float: left;
-    margin: 5px;
+
+img {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    text-align: center;
 }
